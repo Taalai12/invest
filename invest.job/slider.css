@@ -1,0 +1,143 @@
+
+.main-sec {
+  font-family:Arial;
+  width:900px;
+  display:block;
+  padding-left: 240px;
+  height: 100vh;
+  padding-top: 30px;
+}
+.slide-sec{
+  display: block;
+  width: 100%;
+}
+.singlecard{
+  border-radius: 15px;
+  display: table;
+  background: #ddaa59;
+  height:270px;
+}
+.singlecard-header{
+  display: table-cell;
+  width: 25%;
+
+}
+
+.singlecard-header img {
+  border-radius: 15px 0px 15px 0px;
+    max-width: 445px;
+    height:270px;
+    display: block;
+    width: 100%;
+}
+.singlecard-body{
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  padding: 10px 15px;
+}
+.singlecard-title{
+  font-size: 20px;
+  line-height: 1.4;
+  color: #362929;
+}
+
+.singlecard-text p{ 
+  line-height: 20px;
+  color: #000000;
+}
+.slick-dots li{
+  display: none;
+}
+@media(max-width: 1024px){
+.main-sec {
+  width: 800px;
+  font-family:Arial;
+  padding-left: 130px;
+}
+.slide-sec{
+  width: 100%;
+}
+.singlecard{
+  height:300px;
+}
+.singlecard-header{
+  width: 25%;
+}
+
+.singlecard-header img {
+    max-width: 445px;
+    height:300px;
+    width: 100%;
+}
+.singlecard-body{
+  width: 50%;
+  padding: 10px 15px;
+}
+.singlecard-title{
+  font-size: 21px;
+}
+}
+@media(max-width: 768px){
+.main-sec {
+  width: 700px;
+  font-family:Arial;
+  padding-left: 40px;
+}
+.singlecard{
+  height:270px;
+}
+.singlecard-header{
+  width: 25%;
+}
+
+.singlecard-header img {
+    max-width: 445px;
+    height:270px;
+}
+.singlecard-body{
+  width: 50%;
+  padding: 10px 15px;
+}
+.singlecard-title{
+  font-size: 17px;
+}
+
+.singlecard-text p{ 
+  line-height: 15px;
+}
+}
+@media(max-width: 425px){
+.main-sec {
+  width: 400px;
+  font-family:Arial;
+  padding-left: 10px;
+}
+.singlecard{
+  height:228px ;
+  display: grid;
+}
+.singlecard-header{
+  width: 35%;
+}
+
+.singlecard-header img {
+    height:228px;
+}
+.singlecard-body{
+  width: 70%;
+  
+  /* padding: 10px 15px; */
+}
+.singlecard-title{
+  font-size: 15px;
+}
+
+.singlecard-text p{ 
+  line-height: 12px;
+  font-size: 11px;
+}
+.slick-prev button{
+  display: none;
+}
+}
